@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    line-height: 1.8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+header{
+    height: 60px;
+    width: 1366px;
+    background-color: rgb(0, 0, 0);
+    padding: 1px 30px 1px 30px;
+    clear: both;
+    position: fixed;
+    margin: 0px 10px 0px 0px ;
+ 
+}
+header h1{
+    float: left;
+    margin: 5px 0px 0px 5px  ;
+}
+nav{
+    float: right;
+    margin: 5px 10px 5px 10px ;
+     /* background-color: brown; */
+     /*  */
+    
+
+}
+nav ul{
+    margin: 0px;
+    padding: 1px 0px 3px 30px ;
+    /* background-color: aqua; */
+    
+
+}
+ nav ul li {
+    display: inline;
+    margin-left: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    /* background-color: blue; */
+    
+   
+    font-weight: bold;
+    
+    
+ }  
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+ }
+
+ nav ul li:hover{
+    background-color: rgb(9, 243, 9);
+
+ }
+ section .image{
+   width: 1366px;
+    background-image: url(./image/showcase.jpg);
+    height: 650px; 
+    padding: 200px 10px 200px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+ }
+ hgroup{
+    text-align: center;
+    font-weight: bold;
+    /* line-height: 1; */
+ }
+ hgroup h1{
+    font-size: 80px;
+ }
+  
+ section button{
+     margin-left: 600px; 
+    padding: 12px;
+    background-color: rgb(50, 173, 50); 
+    /* border-radius: 10px;  */
+    width: 150px ;
+    color: white; 
+    font-weight: bold;
+    font-size: 15px;
+    border: opx;
+
+ }
+ section button:hover{
+    background-color: rgb(54, 131, 54);
+ }
+ section .what{
+    background-color: rgb(216, 210, 210);
+    width: 1366px;
+    padding: 10px;
+ }
+ section .what h1{
+    margin-left: 600px;
+    font-size: 30px;
+    color: black;
+ }
+ section .what .con{
+    /* background-color: yellow; */
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 80px 0px 150px ;
+
+
+ }
+ .what .con .conte{
+    width: 30%;
+    height: 50%;
+    border-radius: 6px;
+    margin: 50px;
+    padding: 10px;
+    /* background-color: brown; */
+
+ }
+ section .who{
+    background-color: rgb(192, 26, 26);
+    
+    width: 1366px;
+    display: flex;
+    flex-direction: row;
+
+    /* padding: 20px; */
+ }
+  section .who .who-image{
+    /* background-image: url(./image/people.jpg); */
+    height: 400px;
+    width: 700px;
+    /* background-color: rgb(17, 9, 9); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    /* float: left; */
+
+  }
+  .who-image img{
+    height: 500px;
+    width: 700px;
+  }
+  section .who .who-info{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(17, 9, 9);
+    color: white ;
+    font-weight: bold;
+    padding: 20px;
+    /* margin: 0px 0px 0px 10px; */
+    /* float: right; */
+  }
+  .who .who-info h1{
+    font-size: 35px;
+  }
+
+
+  .who .who-info ul li{
+    list-style-type:none;
+        padding: 7px;
+  }
+ section .contant{
+   width: 1366px;
+background-color: rgb(255, 255, 255);
+color: black;
+ }
+ section .contant  h1{
+   
+    text-align: center;
+    font-size: 30px;
+    
+ }
+ section .contant .logos{
+    width: 1366px;
+    padding: 5px 50px 5px 200px;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 150px;  */
+    
+ }
+ section .contant .logos img{
+width: 200px;
+height: 200px ;
+padding: 30px ;
+ }
+
+ section .contant .message-cont{
+   width: 1366x;
+   /* height: 500px;
+   padding: 10px; */
+   background-color: rgb(230, 111, 14);
+   display: flex;
+   flex-direction: row;
+   line-height: 1.8;
+   text-align: justify;
+ }
+ section .contant .message-cont .message{
+   width: 700px;
+   height: 400px;
+   padding: 30px;
+   background-color: rgb(8, 128, 8);
+   color: white;
+   /* line-height: 1.8; */
+ }
+ section .contant .message-cont .message .form-group{
+   margin-top: 5px;
+ }
+ section .contant .message-cont .message .form-group label{
+
+   display:  block;
+   color: white;
+ }
+ section .contant .message-cont .message .form-group input{
+   width: 100%;
+   border: white 1px solid;
+   padding: 7px;
+   
+ }
+ section .contant .message-cont .message .form-group textarea{
+   width: 100%;
+   border: white 1px solid;
+   padding: 7px;
+   height: 50px;
+   
+   
+ }
+ section .contant .message-cont .map{
+   width: 700px;
+   height: 400px;
+   padding: 30px;
+   /* background-color: rgb(133, 161, 6); */
+   color: white;
+   /* line-height: 1.8; */
+   background-image: url(./image/GoogleMapTA.jpg);
+ }
+ footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   width: 1366px;
+
+ }
+
+ @media screen and  (max-width: 360px){
+   header{
+      height: 50px;
+      width: 360px;
+      background-color: rgb(0, 0, 0);
+      padding: 1px 8px 1px 8px;
+      clear: both;
+      position: fixed;
+      margin: 0px 2px 0px 0px ;
+   
+  }
+  header h1{
+      float: left;
+      margin: 2px 0px 0px 2px  ;
+
+  }
+  nav{
+      float: right;
+      margin: 2px 3px 2px 3px ;
+       /* background-color: brown; */
+       /*  */
+      
+  
+  }
+  nav ul{
+      margin: 0px;
+      padding: 0.2px 0px 0.79px 7.9px ;
+      /* background-color: aqua; */
+      
+  
+  }
+   nav ul li {
+      display: inline;
+      margin-left: 11px;
+      list-style-type: none;
+      font-size: 8px;
+      border-radius: 1.05px;
+      padding: 1.7px 0px 0px 0px ;
+      /* background-color: blue; */
+      
+     
+      font-weight: bold;
+      
+      
+   }
+   section .image{
+      width: 360px;
+       background-image: url(./image/showcase.jpg);
+       height: 171.34px; 
+       padding: 53px 3px 53px 3px;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+   
+    }
+
+    hgroup h1{
+      font-size: 21px;
+   }
+   hgroup p{
+      font-size: 10px;
+   }
+    
+   section button{
+       margin-left: 159px; 
+      padding: 3px;
+      background-color: rgb(50, 173, 50); 
+      /* border-radius: 10px;  */
+      width: 40px ;
+      color: white; 
+      font-weight: bold;
+      font-size: 4px;
+      border: opx;
+  
+   }
+
+   section .what{
+      background-color: rgb(216, 210, 210);
+      width: 159px;
+      padding: 1px;
+   }
+   section .what h1{
+      margin-left: 159px;
+      font-size: 8px;
+      color: black;
+   }
+   section .what .con{
+      /* background-color: yellow; */
+      color: black;
+      display: flex;
+      flex-direction: row;
+      padding: 0px 21px 0px 40px ;
+  
+  
+   }
+   .what .con .conte{
+      width: 8%;
+      height: 13%;
+      border-radius: 1px;
+      margin: 13px;
+      padding: 3px;
+      /* background-color: brown; */
+  
+   }
+   section .who{
+      background-color: rgb(192, 26, 26);
+      
+      width: 360px;
+      display: flex;
+      flex-direction: row;
+  
+      /* padding: 20px; */
+   }
+    section .who .who-image{
+      /* background-image: url(./image/people.jpg); */
+      height: 106px;
+      width: 185px;
+      /* background-color: rgb(17, 9, 9); */
+      /* background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed; */
+      /* float: left; */
+  
+    }
+    .who-image img{
+      height: 131px;
+      width: 185px;
+    }
+    section .who .who-info{
+      height: 131px;
+      width: 185px;
+      background-color: rgb(17, 9, 9);
+      color: white ;
+      font-weight: bold;
+      padding: 20px;
+      /* margin: 0px 0px 0px 10px; */
+      /* float: right; */
+    }
+    .who .who-info h1{
+      font-size: 35px;
+    }
+  
+  
+    .who .who-info ul li{
+      list-style-type:none;
+          padding: 7px;
+    }
+
+ }
+   
+ 
+     
